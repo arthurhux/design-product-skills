@@ -22,6 +22,7 @@ This repository publishes three installable Claude Code marketplace entries. Eac
 | Design | Review a flow, audit accessibility, and prepare component specs for handoff. | This marketplace · [Anthropic](https://github.com/anthropics/knowledge-work-plugins/tree/main/design) |
 | Product Management | Connect research findings to a spec, roadmap decision, and success metric. | This marketplace · [Anthropic](https://github.com/anthropics/knowledge-work-plugins/tree/main/product-management) |
 | Engineering | Turn a design decision into a technical plan and review the implementation. | This marketplace · [Anthropic](https://github.com/anthropics/knowledge-work-plugins/tree/main/engineering) |
+| How · Cursor plugin | Trace how an existing flow works before redesigning it. For example, follow an accepted invitation from the first click to workspace access and identify the code behind each step. | [Poteto’s How plugin](https://github.com/poteto/how) |
 | Figma | Work with editable frames, components, and design-to-code mappings. | [Figma developer tools](https://developers.figma.com/) |
 | Mobbin | Compare a proposed flow with screenshots from shipped products. | [Mobbin](https://mobbin.com/) |
 | Market Researcher | Investigate a market before committing to discovery or positioning work. | Host-provided plugin, listed as Market Researcher where available |
@@ -64,6 +65,7 @@ For an existing clone, run `git submodule update --init --recursive`. Each colle
 | design | Extract a site's typography, tokens, and component conventions into a reusable DESIGN.md. |
 | design-critique | Review a mockup before handoff to find unclear hierarchy, inconsistent controls, or friction. |
 | design-handoff | Specify component states, breakpoints, and tokens so engineering can implement a design. |
+| [Verification skill example](https://github.com/poteto/verification-skill-example) · reference template | Turn handoff states into checks for each entry point. For onboarding, test cancellation, retry, and progress after reopening the app. Poteto’s fictional example shows how to record evidence and requires your own test driver. |
 | [emil-design-eng](https://github.com/emilkowalski/skills) | Review the details of feedback, timing, and component behavior in a working interface. |
 | [excalidraw-diagram](https://github.com/coleam00/excalidraw-diagram-skill) | Draw an editable workflow diagram when a sequence of handoffs is hard to explain in prose. |
 | [frontend-design](https://github.com/anthropics/claude-code) | Build a web interface around a deliberate type, layout, and visual direction. |
