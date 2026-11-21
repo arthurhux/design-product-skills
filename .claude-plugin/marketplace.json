@@ -1,0 +1,41 @@
+{
+  "name": "design-product-skills",
+  "owner": {
+    "name": "arthurhux"
+  },
+  "plugins": [
+    {
+      "name": "design",
+      "source": {
+        "source": "git-subdir",
+        "url": "https://github.com/anthropics/knowledge-work-plugins.git",
+        "path": "design",
+        "ref": "main",
+        "sha": "0e0fcacddcc892eb92a1b7873ff9d68159c47571"
+      }
+    },
+    {
+      "name": "product-management",
+      "source": {
+        "source": "git-subdir",
+        "url": "https://github.com/anthropics/knowledge-work-plugins.git",
+        "path": "product-management",
+        "ref": "main",
+        "sha": "0e0fcacddcc892eb92a1b7873ff9d68159c47571"
+      }
+    },
+    {
+      "name": "engineering",
+      "source": {
+        "source": "git-subdir",
+        "url": "https://github.com/anthropics/knowledge-work-plugins.git",
+        "path": "engineering",
+        "ref": "main",
+        "sha": "0e0fcacddcc892eb92a1b7873ff9d68159c47571"
+      }
+    }
+  ],
+  "metadata": {
+    "description": "Skills for product discovery, design review, and engineering delivery."
+  }
+}

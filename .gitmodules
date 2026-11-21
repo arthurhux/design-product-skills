@@ -1,0 +1,9 @@
+[submodule "collections/android"]
+	path = collections/android
+	url = https://github.com/android/skills.git
+[submodule "collections/ios"]
+	path = collections/ios
+	url = https://github.com/AvdLee/SwiftUI-Agent-Skill.git
+[submodule "collections/emil"]
+	path = collections/emil
+	url = https://github.com/emilkowalski/skills.git
